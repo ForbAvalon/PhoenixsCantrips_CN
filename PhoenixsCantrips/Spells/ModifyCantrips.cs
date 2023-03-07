@@ -45,13 +45,13 @@ namespace PhoenixsCantrips.Spells
             // plus another die per two caster levels past first (maximum 6 dice).
             //return;
             Main.Context.Logger.Log("Updating cantrip descriptions");
-            SetDesc("DivineZap", "You unleash your divine powers against a single target. The target takes {g|Encyclopedia:Dice}1d3{/g} points of divine {g|Encyclopedia:Damage}damage{/g}, plus another die per two caster levels past first (maximum 6d3). A successful {g|Encyclopedia:Saving_Throw}save{/g} halves the damage.");//Divine Zap
-            SetDesc("Jolt", "You cause a spark of electricity to strike the target with a successful ranged {g|Encyclopedia:TouchAttack}touch attack{/g}. The {g|Encyclopedia:Spell}spell{/g} deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}electricity damage{/g}, plus another die per two caster levels past first (maximum 6d3).");//Jolt
-            SetDesc("RayOfFrost", "A ray of freezing air and ice projects from your pointing finger. You must succeed on a ranged {g|Encyclopedia:TouchAttack}touch attack{/g} with the ray to deal {g|Encyclopedia:Damage}damage{/g} to a target. The ray deals {g|Encyclopedia:Dice}1d3{/g} points of {g|Encyclopedia:Energy_Damage}cold damage{/g}, plus another die per two caster levels past first (maximum 6d3).");//Jolt
-            SetDesc("AcidSplash", "You fire a small orb of acid at the target. You must succeed on a ranged {g|Encyclopedia:TouchAttack}touch attack{/g} to hit your target. The orb deals 1–3 ({g|Encyclopedia:Dice}1d3{/g}) points of {g|Encyclopedia:Energy_Damage}acid damage{/g}, plus another die per two caster levels past first (maximum 6d3).");//Acit Splash
-            SetDesc("DisruptUndead", "You direct a ray of positive energy. You must make a ranged {g|Encyclopedia:TouchAttack}touch attack{/g} to hit, and if the ray hits an undead creature, it deals {g|Encyclopedia:Dice}1d6{/g} points of {g|Encyclopedia:Damage}damage{/g} to it, plus another die per two caster levels past first (maximum 6d6)");//Jolt
-            SetDesc("d3a852385ba4cd740992d1970170301a", "With a {g|Encyclopedia:TouchAttack}touch{/g}, you infuse a creature with a tiny surge of life, granting the subject 1 temporary hit point, plus another per two caster levels after first to a maximum of 10");//Jolt
-            SetBuffDesc("a13ad2502d9e4904082868eb71efb0c5", "With a {g|Encyclopedia:TouchAttack}touch{/g}, you infuse a creature with a tiny surge of life, granting the subject 1 temporary hit point, plus another per two caster levels after first to a maximum of 10");//Jolt
+            SetDesc("DivineZap", "你对一个目标释放神圣力量。目标受到{g|Encyclopedia:Dice}1d3{/g}点神力{g|Encyclopedia:Damage}伤害{/g}, 每两个施法者等级伤害额外增加1d3（最高到达6d3）。{g|Encyclopedia:Saving_Throw}豁免检定{/g}成功可减半此伤害。");//Divine Zap
+            SetDesc("Jolt", "你制造出一串电火花，并需要成功进行远程{g|Encyclopedia:TouchAttack}接触攻击{/g}检定来击中目标。此{g|Encyclopedia:Spell}法术{/g}造成{g|Encyclopedia:Dice}1d3{/g}点{g|Encyclopedia:Energy_Damage}电击伤害{/g}，每两个施法者等级伤害额外增加1d3（最高到达6d3）。");//Jolt
+            SetDesc("RayOfFrost", "你从指尖射出一道寒气与冰霜。你必须成功进行远程{g|Encyclopedia:TouchAttack}接触攻击{/g}才可对目标造成{g|Encyclopedia:Damage}伤害{/g}。射线造成{g|Encyclopedia:Dice}1d3{/g}点{g|Encyclopedia:Energy_Damage}寒冷伤害{/g}，每两个施法者等级伤害额外增加1d3（最高到达6d3）。");//Jolt
+            SetDesc("AcidSplash", "你向目标发射一小团酸液球。你必须成功进行远程{g|Encyclopedia:TouchAttack}接触攻击{/g}才可命中目标。酸液球造成1到3（{g|Encyclopedia:Dice}1d3{/g}）点{g|Encyclopedia:Energy_Damage}酸蚀伤害{/g}，每两个施法者等级伤害额外增加1d3（最高到达6d3）。");//Acit Splash
+            SetDesc("DisruptUndead", "你引导一束正向能量。你必须成功进行远程{g|Encyclopedia:TouchAttack}接触攻击{/g}才可命中目标，若该射线命中不死生物，便可对其造成{g|Encyclopedia:Dice}1d6{/g}加上每两个施法者等级1d6点{g|Encyclopedia:Damage}伤害{/g}，最高到达6d6。");//Jolt
+            SetDesc("d3a852385ba4cd740992d1970170301a", "你通过{g|Encyclopedia:TouchAttack}接触{/g}向受术生物注入一股微小的生命涌动，使其获得1点临时生命值，每两个施法者等级额外+1，最高到达10点。");//Jolt
+            SetBuffDesc("a13ad2502d9e4904082868eb71efb0c5", "你通过{g|Encyclopedia:TouchAttack}接触{/g}向受术生物注入一股微小的生命涌动，使其获得1点临时生命值，每两个施法者等级额外+1，最高到达10点。");//Jolt
 
 
         }
